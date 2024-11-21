@@ -1,5 +1,5 @@
 # Webpack Template
-A starter template for building modern JavaScript applications using Webpack, with integrated Jest for testing and ESLint for code quality assurance.
+A starter template for building modern JavaScript applications using [Webpack](https://webpack.js.org/), with integrated [Jest](https://jestjs.io/) for testing and [ESLint](https://eslint.org/) for code quality assurance.
 
 ## Getting Started
 1. Ensure you have the following installed:
@@ -9,12 +9,12 @@ A starter template for building modern JavaScript applications using Webpack, wi
 3. install the dependencies with `npm install`
 
 ## Usage
-- **Start the Development server**
+- **Start the Development server:**
     Use the command `npm run dev` to start [webpack dev server](https://webpack.js.org/configuration/dev-server/).
-- **Run Tests**
+- **Run Tests:**
     Write your tests in the `test/` folder and run them with the command `npm test`.
-- **Build for Production**
-Generate a production-ready version of your application in the `dist/` folder by running the command `npm build`.
+- **Build for Production:**
+    Generate a production-ready version of your application in the `dist/` folder by running the command `npm build`.
 
 ## Deploy on GitHub Pages
 1. Create a new branch with `git branch gh-pages`(First time only).
