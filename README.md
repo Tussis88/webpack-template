@@ -14,7 +14,7 @@ A starter template for building modern JavaScript applications using [Webpack](h
 - **Run Tests:**
     Write your tests in the `test/` folder and run them with the command `npm test`.
 - **Build for Production:**
-    Generate a production-ready version of your application in the `dist/` folder by running the command `npm build`.
+    Generate a production-ready version of your application in the `dist/` folder by running the command `npm run build`.
 
 ## Deploy on GitHub Pages
 1. Create a new branch with `git branch gh-pages`(First time only).
@@ -22,5 +22,5 @@ A starter template for building modern JavaScript applications using [Webpack](h
 3. Run `git merge main --no-edit` to merge the latest changes from the `main` branch.
 4. Build the distribution files in the `dist/` folder with the command `npm build`.
 5. Remove `dist/` from your `.gitignore` file (if listed), than stage and commit the changes with `git add dist/` and `commit -m "Prepare dist for deployment"`.
-6. Run the command `npm deploy` to deploy on github pages.
+6. Run the command `npm run deploy` to deploy on github pages.
 7. Now you can go back to main with `git checkout main`.
